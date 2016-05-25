@@ -1,0 +1,14 @@
+1. start a new project and store to repository Go2016
+export GOPATH=~/GoProjects
+mkdir -p $GOPATH/src/github.com/kyuelin/go2016
+git init
+//mkdir hello package
+//create hello.go
+//mkdir string package
+//create reverse.go, reverse_tets.go
+git commit -m "init"
+git remote add origin https://github.com/kyuelin/Go2016.git
+git push origin master
+
+
+
