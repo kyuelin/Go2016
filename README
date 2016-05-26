@@ -23,3 +23,4 @@ export GOPATH=~/GoProjects
 mkdir -p $GOPATH
 go get github.com/kyuelin/go2016
 // $GOPATH/src/github.com/kyuelin/go2016
+go install github.com/kyuelin/go2016/hello
