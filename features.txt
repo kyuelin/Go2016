@@ -1,0 +1,41 @@
+vs. Java
+
+. return multiple values from function
+func ret_multi_values (T, T) {
+    return v1,v2
+}
+
+. defer execution
+defer printTwo()
+printOne()
+
+. allow execution to continue should a fatal occurred
+func dosth() {
+    defer func() {
+        recover()
+    }()
+}
+
+. catch exception shoudl a fatal occurred
+func dosth() {
+    defer func() {
+        recover()
+    }()
+    panic("PANIC")
+}
+
+. pointer
+
+
+. easily build a web server
+http.HandleFunc("/", handler)
+http.ListenAndServe(":8080", nil)
+func handler(w http.ResponseWriter, r *http.Request)  {
+	fmt.Fprintf(w, "hello dude!\n")
+}
+
+. goroutine
+for i:=0; i<10; i++ {
+    go routine(i)
+}
+routines terminated premuturally should calling function exited earlier
