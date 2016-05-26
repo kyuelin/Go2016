@@ -39,3 +39,13 @@ for i:=0; i<10; i++ {
     go routine(i)
 }
 routines terminated premuturally should calling function exited earlier
+
+. channel
+use channel to pass message among routines.
+strChan := make(chan string)
+strChan <- "chan#1"
+go getChan(strChan)
+
+func getChan (theChan chan string) {
+    locname := theChan
+}
