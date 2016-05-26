@@ -16,3 +16,10 @@ New project from version control github
 Git Repository URL: https://github.com/kyuelin/Go2016.git
 Parent Directory: $GOPATH/src/github.com/kyuelin/
 Directory Name: go2016
+
+
+3. go get 
+export GOPATH=~/GoProjects
+mkdir -p $GOPATH
+go get github.com/kyuelin/go2016
+// $GOPATH/src/github.com/kyuelin/go2016
