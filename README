@@ -11,7 +11,7 @@ git remote add origin https://github.com/kyuelin/Go2016.git
 git push origin master
 
 
-2. import project in Intellij on new workstation
+2. check out project in Intellij on new workstation
 New project from version control github 
 Git Repository URL: https://github.com/kyuelin/Go2016.git
 Parent Directory: $GOPATH/src/github.com/kyuelin/
